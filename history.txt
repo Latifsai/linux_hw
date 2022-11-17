@@ -1,0 +1,65 @@
+   0 whoami
+   1 rename --help
+   2 cd /
+   3 ls
+   4 ls --help
+   5 ls -a
+   6 ls
+   7 ls -l
+   8 ls -ls
+   9 ls -la
+  10 ls - lsa
+  11 ls -lsa
+  12 ls -lc
+  13 cd /
+  14 ls
+  15 cd /home
+  16 ls
+  17 ls -a
+  18 cd ..
+  19 cd /home
+  20 mkdir user1
+  21 ls
+  22 cd user1/
+  23 mkdir task1
+  24 ls
+  25 cd task1/
+  26 history
+  27 touch file.txt
+  28 ls
+  29 cd
+  30 pwd
+  31 tree
+  32 tree /
+  33 tree /home
+  34 ls
+  35 ls /home
+  36 ls -r
+  37 ls -R
+  38 ls -R /home
+  39 sudo apt-get install tree
+  40 cd 
+  41 mkdir /home/user2/task2
+  42 mkdir --help
+  43 mkdir -p /home/user2/task2
+  44 ls
+  45 touch /home/user2/task2/file2.txt
+  46 mkdir /home/user2/task2/leva
+  47 mkdir -p /home/user3 /opt/user1 /tmp/user1/task1
+  48 tree /home
+  49 touch /home/user3/file2.txt /opt/user1/file2.txt /tmp/user1/task1/user1/file2.txt
+  50 mkdir /tmp/user2/ && touch /tmp/user1/file3.txt
+  51 date
+  52 cp /home/user1/task1/file.txt 
+  53 cp /home/user1/task1/file.txt /
+  54 ls /
+  55 mv /home/user2/task2/file2.txt /var/1.txt
+  56 ls /var/
+  57 cp /home /sys/ 
+  58 cp -R /home /sys/
+  59 cp -R /home /opt/
+  60 rm -rf /tmp/user1
+  61 ls /tmp
+  62 tree /tmp/
+  63 history
+  64 history > history.txt
